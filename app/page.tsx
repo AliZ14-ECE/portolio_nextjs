@@ -7,7 +7,7 @@ import Skills from './components/sections/Skills';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen bg-white dark:bg-black">
       <Navbar />
       <Hero />
       <About />
