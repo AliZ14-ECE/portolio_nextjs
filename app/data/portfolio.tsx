@@ -1,3 +1,5 @@
+import { Code, Lightbulb, User } from "lucide-react";
+
 export const portfolioData = {
   personal: {
     name: "Ali Zahir",
@@ -8,6 +10,27 @@ export const portfolioData = {
     linkedin: "https://iq.linkedin.com/in/ali-zaher-63a236184",
     mobile: "+964 781 565 4550"
   },
+
+  highlights : [
+    {
+      icon: <User className="h-6 w-6" />,
+      title: "Who I Am",
+      description:
+        "A passionate developer dedicated to crafting clean, efficient, and user-friendly applications.",
+    },
+    {
+      icon: <Code className="h-6 w-6" />,
+      title: "What I Do",
+      description:
+        "I build modern web applications using cutting-edge technologies and best practices.",
+    },
+    {
+      icon: <Lightbulb className="h-6 w-6" />,
+      title: "My Approach",
+      description:
+        "I believe in continuous learning, collaboration, and delivering solutions that make an impact.",
+    },
+  ],
   about: {
     title: "About Me",
     heading: "Passionate about creating web experiences",
