@@ -33,8 +33,8 @@ const Navbar = () => {
       }
       `}
     >
-      <div className="w-full h-20 sticky top-0 shadow-md bg-gray-800">
-        <div className="container mx-auto px-4 h-full flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
           <div className="shrink-0">
             <a
               href="#"
@@ -58,7 +58,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white focus:outline-none"
