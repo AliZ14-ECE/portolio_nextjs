@@ -1,4 +1,4 @@
-import { Code, Lightbulb, User } from "lucide-react";
+import { Code, Lightbulb, User, Globe, Server, Database, Wrench } from "lucide-react";
 
 export const portfolioData = {
   personal: {
@@ -37,18 +37,33 @@ export const portfolioData = {
     description: "I am a dedicated developer with a strong foundation in modern web technologies. I love solving complex problems and building applications that make a difference. When I'm not coding, you can find me exploring new technologies or contributing to open source.",
   },
 
-  skills: [
-    "JavaScript (ES6+)",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Tailwind CSS",
-    "PostgreSQL",
-    "Git",
-    "Docker",
-    "AWS",
-  ],
+  skills: {
+    title: "Skills",
+    heading: "Technologies I Work With",
+    description: "I've worked with a variety of technologies across the full stack. Here are the tools and technologies I use to bring ideas to life.",
+    categories: [
+      {
+        name: "Frontend",
+        icon: <Globe className="h-5 w-5" />,
+        items: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+      },
+      {
+        name: "Backend",
+        icon: <Server className="h-5 w-5" />,
+        items: ["Node.js", "Express", "REST APIs", "GraphQL"],
+      },
+      {
+        name: "Database",
+        icon: <Database className="h-5 w-5" />,
+        items: ["PostgreSQL", "MongoDB", "Redis", "Prisma"],
+      },
+      {
+        name: "DevOps & Tools",
+        icon: <Wrench className="h-5 w-5" />,
+        items: ["Git", "Docker", "AWS", "CI/CD", "Linux"],
+      },
+    ],
+  },
   projects: [
     {
       title: "E-Commerce Platform",
