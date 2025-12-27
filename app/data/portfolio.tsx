@@ -90,4 +90,35 @@ export const portfolioData = {
       github: "#",
     },
   ],
+  experience: {
+    title: "Experience",
+    heading: "Where I've Worked",
+    description: "A timeline of my professional journey and the companies I've had the privilege to work with.",
+    jobs: [
+      {
+        title: "Software Developer",
+        company: "Tech Solutions Inc.",
+        companyUrl: "#",
+        date: "2022 — Present",
+        description: "Build and maintain critical features for customer-facing web applications. Work closely with cross-functional teams to implement new functionality and improve existing codebase. Lead code reviews and mentor junior developers.",
+        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+      },
+      {
+        title: "Frontend Developer",
+        company: "Digital Agency Co.",
+        companyUrl: "#",
+        date: "2020 — 2022",
+        description: "Developed responsive and accessible web applications for various clients. Collaborated with designers to implement pixel-perfect UIs. Optimized application performance and improved load times by 40%.",
+        technologies: ["JavaScript", "React", "Next.js", "Tailwind CSS", "GraphQL"],
+      },
+      {
+        title: "Junior Web Developer",
+        company: "StartUp Hub",
+        companyUrl: "#",
+        date: "2019 — 2020",
+        description: "Built and shipped features for the company's main product. Worked on both frontend and backend tasks. Participated in agile development processes and contributed to sprint planning.",
+        technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "Node.js"],
+      },
+    ],
+  },
 };
