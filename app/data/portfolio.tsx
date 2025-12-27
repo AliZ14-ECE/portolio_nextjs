@@ -71,7 +71,7 @@ export const portfolioData = {
         "A full-featured online store built with Next.js, Stripe, and Sanity CMS. Features include user authentication, cart management, and payment processing.",
       tags: ["Next.js", "TypeScript", "Stripe", "Sanity"],
       link: "#",
-      github: "#",
+      github: null,
     },
     {
       title: "Task Management App",
@@ -79,7 +79,7 @@ export const portfolioData = {
         "A productivity tool for managing tasks and projects. Includes real-time updates, drag-and-drop interface, and team collaboration features.",
       tags: ["React", "Firebase", "Tailwind CSS"],
       link: "#",
-      github: "#",
+      github: null,
     },
     {
       title: "Weather Dashboard",
@@ -87,7 +87,7 @@ export const portfolioData = {
         "A weather application that provides real-time forecasts and historical data visualization using public APIs.",
       tags: ["Vue.js", "Chart.js", "OpenWeatherMap API"],
       link: "#",
-      github: "#",
+      github: null,
     },
   ],
   experience: {
