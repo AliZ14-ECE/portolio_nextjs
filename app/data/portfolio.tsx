@@ -1,124 +1,187 @@
-import { Code, Lightbulb, User, Globe, Server, Database, Wrench } from "lucide-react";
+import { Code, Lightbulb, User, Globe, Server, Database, Wrench, Smartphone, BarChart3 } from "lucide-react";
 
 export const portfolioData = {
   personal: {
-    name: "Ali Zahir",
+    name: "Ali Zahir Al-Saygh",
     role: "Software Developer",
-    description: "I build reliable software as an adaptable developer skilled in problem‑solving and collaboration.",
+    description: "I turn complex problems into elegant solutions—whether it's building apps, automating workflows, or analyzing data.",
     email: "ali.alobadye@gmail.com",
     github: "https://github.com/AliZ14-ECE",
     linkedin: "https://iq.linkedin.com/in/ali-zaher-63a236184",
-    mobile: "+964 781 565 4550"
+    mobile: "+964 781 565 4550",
+    location: "Najaf, Iraq"
   },
 
-  highlights : [
+  highlights: [
     {
       icon: <User className="h-6 w-6" />,
       title: "Who I Am",
       description:
-        "A passionate developer dedicated to crafting clean, efficient, and user-friendly applications.",
+        "A motivated engineer with expertise in software development, data analysis, and deep learning. Adaptable and ready to tackle new challenges.",
     },
     {
       icon: <Code className="h-6 w-6" />,
       title: "What I Do",
       description:
-        "I build modern web applications using cutting-edge technologies and best practices.",
+        "I build software solutions, automate processes, and create data-driven insights using modern technologies.",
     },
     {
       icon: <Lightbulb className="h-6 w-6" />,
       title: "My Approach",
       description:
-        "I believe in continuous learning, collaboration, and delivering solutions that make an impact.",
+        "Keep it simple, make it work, then make it better. Quality matters more than complexity.",
     },
   ],
   about: {
     title: "About Me",
-    heading: "Passionate about creating web experiences",
-    description: "I am a dedicated developer with a strong foundation in modern web technologies. I love solving complex problems and building applications that make a difference. When I'm not coding, you can find me exploring new technologies or contributing to open source.",
+    heading: "Engineer passionate about innovation and problem-solving",
+    description: "I am a motivated engineer with a strong programming foundation, experienced in Quality Control, software development, and deep learning. I am skilled at solving complex problems and creating innovative solutions. Adaptable and ready to tackle new challenges and deliver high-quality results. I hold a Bachelor's degree in Electronics and Communication Engineering from the University of Kufa (2017–2021).",
   },
 
   skills: {
     title: "Skills",
     heading: "Technologies I Work With",
-    description: "I've worked with a variety of technologies across the full stack. Here are the tools and technologies I use to bring ideas to life.",
+    description: "I've worked with a variety of technologies across software development, data analysis, and telecommunications. Here are the tools and technologies I use to bring ideas to life.",
     categories: [
       {
-        name: "Frontend",
-        icon: <Globe className="h-5 w-5" />,
-        items: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+        name: "Programming & Backend",
+        icon: <Server className="h-5 w-5" />,
+        items: ["Python", "Golang", "REST APIs", "Software Engineering"],
       },
       {
-        name: "Backend",
-        icon: <Server className="h-5 w-5" />,
-        items: ["Node.js", "Express", "REST APIs", "GraphQL"],
+        name: "Mobile Development",
+        icon: <Smartphone className="h-5 w-5" />,
+        items: ["Flutter", "Dart", "Cross-platform Apps"],
+      },
+      {
+        name: "Data & Analytics",
+        icon: <BarChart3 className="h-5 w-5" />,
+        items: ["Power BI", "Excel Dashboards", "Data Analysis", "Python Libraries"],
+      },
+      {
+        name: "Web Development",
+        icon: <Globe className="h-5 w-5" />,
+        items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "HTML/CSS"],
       },
       {
         name: "Database",
         icon: <Database className="h-5 w-5" />,
-        items: ["PostgreSQL", "MongoDB", "Redis", "Prisma"],
+        items: ["Database Design", "SQL", "PostgreSQL"],
       },
       {
         name: "DevOps & Tools",
         icon: <Wrench className="h-5 w-5" />,
-        items: ["Git", "Docker", "AWS", "CI/CD", "Linux"],
+        items: ["Git", "GitHub", "QGIS", "FTTH Testing"],
+      },
+      {
+        name: "AI & Machine Learning",
+        icon: <Globe className="h-5 w-5" />,
+        items: ["Neural Networks", "Deep Learning", "CNN", "RNN"],
       },
     ],
   },
   projects: [
     {
-      title: "E-Commerce Platform",
+      title: "Graduation Tracking System",
       description:
-        "A full-featured online store built with Next.js, Stripe, and Sanity CMS. Features include user authentication, cart management, and payment processing.",
-      tags: ["Next.js", "TypeScript", "Stripe", "Sanity"],
-      link: "#",
+        "Full-stack system for the University of Kufa to track student graduation progress.",
+      tags: ["Flutter", "Golang", "Database Design", "Next.js"],
+      link: null,
       github: null,
     },
     {
-      title: "Task Management App",
+      title: "QGIS Automation Plugin",
       description:
-        "A productivity tool for managing tasks and projects. Includes real-time updates, drag-and-drop interface, and team collaboration features.",
-      tags: ["React", "Firebase", "Tailwind CSS"],
-      link: "#",
+        "A Python plugin that automates data filtering for FTTH networks. Won the Innovation and Process Improvement award in 2024. from Earthlink Tel.",
+      tags: ["Python", "QGIS", "Automation"],
+      link: null,
       github: null,
     },
     {
-      title: "Weather Dashboard",
+      title: "Data Analytics Dashboards",
       description:
-        "A weather application that provides real-time forecasts and historical data visualization using public APIs.",
-      tags: ["Vue.js", "Chart.js", "OpenWeatherMap API"],
-      link: "#",
+        "Interactive Power BI and Excel dashboards for business reporting. Includes automated data pipelines built with Python.",
+      tags: ["Python", "Power BI", "Excel", "Data Visualization"],
+      link: null,
       github: null,
     },
   ],
   experience: {
     title: "Experience",
     heading: "Where I've Worked",
-    description: "A timeline of my professional journey and the companies I've had the privilege to work with.",
+    description: "My professional journey so far.",
     jobs: [
       {
+        title: "FTTH Quality Control Engineer",
+        company: "Earthlink Telecommunication Company",
+        companyUrl: "https://earthlink.iq",
+        date: "Jan 2022 — 2025",
+        description: "Testing and troubleshooting fiber networks. Built Python tools to automate repetitive tasks—one of which earned me an Innovation award in 2024.",
+        technologies: ["Python", "Flutter", "QGIS", "FTTH", "Network Testing", "Automation", "Problem Solving"],
+      },
+      {
+        title: "Data Analyst",
+        company: "Earthlink Telecommunication Company",
+        companyUrl: "https://earthlink.iq",
+        date: "Apr 2023 — Oct 2024",
+        description: "Turned raw data into actionable insights. Built dashboards in Power BI and automated data pipelines with Python.",
+        technologies: ["Python", "Power BI", "Excel", "Data Analysis", "Dashboards"],
+      },
+      {
         title: "Software Developer",
-        company: "Tech Solutions Inc.",
-        companyUrl: "#",
-        date: "2022 — Present",
-        description: "Build and maintain critical features for customer-facing web applications. Work closely with cross-functional teams to implement new functionality and improve existing codebase. Lead code reviews and mentor junior developers.",
-        technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
-      },
-      {
-        title: "Frontend Developer",
-        company: "Digital Agency Co.",
-        companyUrl: "#",
-        date: "2020 — 2022",
-        description: "Developed responsive and accessible web applications for various clients. Collaborated with designers to implement pixel-perfect UIs. Optimized application performance and improved load times by 40%.",
-        technologies: ["JavaScript", "React", "Next.js", "Tailwind CSS", "GraphQL"],
-      },
-      {
-        title: "Junior Web Developer",
-        company: "StartUp Hub",
-        companyUrl: "#",
-        date: "2019 — 2020",
-        description: "Built and shipped features for the company's main product. Worked on both frontend and backend tasks. Participated in agile development processes and contributed to sprint planning.",
-        technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "Node.js"],
+        company: "University of Kufa",
+        companyUrl: "https://uokufa.edu.iq",
+        date: "2023",
+        description: "Built a graduation tracking system from scratch—database design, Golang backend, and Flutter mobile app.",
+        technologies: ["Flutter", "Golang", "Database Design", "Full Stack"],
       },
     ],
   },
+  education: {
+    title: "Education",
+    heading: "Academic Background",
+    items: [
+      {
+        degree: "Bachelor of Electronics and Communication Engineering",
+        institution: "University of Kufa",
+        location: "Najaf, Iraq",
+        period: "2017 — 2021",
+      },
+    ],
+  },
+  certifications: {
+    title: "Training & Certifications",
+    heading: "Continuous Learning",
+    items: [
+      {
+        name: "Neural Networks and Deep Learning",
+        issuer: "DeepLearning.AI, Coursera",
+        date: "2019",
+        link: "https://coursera.org/share/a1a9d5e56270321ce1c5f63baf8d94ec",
+      },
+      {
+        name: "Hyperparameter Tuning, Regularization and Optimization",
+        issuer: "DeepLearning.AI, Coursera",
+        date: "2019",
+        link: "https://coursera.org/share/48c2508198f81e76dd41e6cb73a8c18b",
+      },
+      {
+        name: "Structuring Machine Learning Projects",
+        issuer: "DeepLearning.AI, Coursera",
+        date: "2019",
+        link: "https://coursera.org/share/a2851fc4094e33133903e0dc800aa2a7",
+      },
+      {
+        name: "Foundations of Project Management",
+        issuer: "Google, Coursera",
+        date: "2023",
+        link: "https://coursera.org/share/1d4ca8a7bc5b55518bd65037c131b9ce",
+      },
+    ],
+  },
+  interests: ["Programming", "Machine Learning", "Algorithms & Data Structures", "Large Language Models"],
+  languages: [
+    { name: "Arabic", level: "Native" },
+    { name: "English", level: "Proficient" },
+  ],
 };
